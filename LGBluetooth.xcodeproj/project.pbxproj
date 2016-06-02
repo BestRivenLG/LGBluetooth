@@ -15,6 +15,10 @@
 		0475573E1CFFC2D6000545E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475573C1CFFC2D6000545E5 /* LaunchScreen.storyboard */; };
 		047557491CFFC2D6000545E5 /* LGBluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047557481CFFC2D6000545E5 /* LGBluetoothTests.m */; };
 		047557541CFFC2D6000545E5 /* LGBluetoothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047557531CFFC2D6000545E5 /* LGBluetoothUITests.m */; };
+		047557631CFFD589000545E5 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047557621CFFD589000545E5 /* TwoViewController.m */; };
+		047557691CFFDB03000545E5 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047557681CFFDB03000545E5 /* ThreeViewController.m */; };
+		0475576C1CFFE45F000545E5 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475576B1CFFE45F000545E5 /* FourViewController.m */; };
+		0475576F1CFFE46D000545E5 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475576E1CFFE46D000545E5 /* FiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		0475574F1CFFC2D6000545E5 /* LGBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047557531CFFC2D6000545E5 /* LGBluetoothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBluetoothUITests.m; sourceTree = "<group>"; };
 		047557551CFFC2D6000545E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047557611CFFD589000545E5 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		047557621CFFD589000545E5 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		047557671CFFDB03000545E5 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		047557681CFFDB03000545E5 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		0475576A1CFFE45F000545E5 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		0475576B1CFFE45F000545E5 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		0475576D1CFFE46D000545E5 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		0475576E1CFFE46D000545E5 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +117,19 @@
 				047557321CFFC2D6000545E5 /* AppDelegate.m */,
 				047557341CFFC2D6000545E5 /* ViewController.h */,
 				047557351CFFC2D6000545E5 /* ViewController.m */,
+				047557611CFFD589000545E5 /* TwoViewController.h */,
+				047557621CFFD589000545E5 /* TwoViewController.m */,
+				0475576A1CFFE45F000545E5 /* FourViewController.h */,
+				0475576B1CFFE45F000545E5 /* FourViewController.m */,
+				0475576D1CFFE46D000545E5 /* FiveViewController.h */,
+				0475576E1CFFE46D000545E5 /* FiveViewController.m */,
 				047557371CFFC2D6000545E5 /* Main.storyboard */,
 				0475573A1CFFC2D6000545E5 /* Assets.xcassets */,
 				0475573C1CFFC2D6000545E5 /* LaunchScreen.storyboard */,
 				0475573F1CFFC2D6000545E5 /* Info.plist */,
 				0475572E1CFFC2D6000545E5 /* Supporting Files */,
+				047557671CFFDB03000545E5 /* ThreeViewController.h */,
+				047557681CFFDB03000545E5 /* ThreeViewController.m */,
 			);
 			path = LGBluetooth;
 			sourceTree = "<group>";
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0475576C1CFFE45F000545E5 /* FourViewController.m in Sources */,
 				047557361CFFC2D6000545E5 /* ViewController.m in Sources */,
 				047557331CFFC2D6000545E5 /* AppDelegate.m in Sources */,
 				047557301CFFC2D6000545E5 /* main.m in Sources */,
+				047557631CFFD589000545E5 /* TwoViewController.m in Sources */,
+				047557691CFFDB03000545E5 /* ThreeViewController.m in Sources */,
+				0475576F1CFFE46D000545E5 /* FiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +436,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LGBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth.LGBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -423,8 +448,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LGBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth.LGBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
