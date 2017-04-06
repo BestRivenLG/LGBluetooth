@@ -227,6 +227,8 @@
 				TargetAttributes = {
 					0475572A1CFFC2D6000545E5 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P956ZH87BE;
+						ProvisioningStyle = Automatic;
 					};
 					047557431CFFC2D6000545E5 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -435,11 +437,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Orient Express Investment Management Co., Ltd. (4XM4U55XWS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P956ZH87BE;
 				INFOPLIST_FILE = LGBluetooth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYTest.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -447,11 +453,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Orient Express Investment Management Co., Ltd. (4XM4U55XWS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P956ZH87BE;
 				INFOPLIST_FILE = LGBluetooth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.znLG.LGBluetooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WYTest.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -522,6 +532,7 @@
 				0475575A1CFFC2D6000545E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0475575B1CFFC2D6000545E5 /* Build configuration list for PBXNativeTarget "LGBluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +541,7 @@
 				0475575D1CFFC2D6000545E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0475575E1CFFC2D6000545E5 /* Build configuration list for PBXNativeTarget "LGBluetoothUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +550,7 @@
 				047557601CFFC2D6000545E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
