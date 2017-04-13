@@ -27,7 +27,6 @@
     [super viewDidLoad];
 
     self.navigationItem.title = @"外围设备";
-
 }
 
 #pragma mark - UI事件
